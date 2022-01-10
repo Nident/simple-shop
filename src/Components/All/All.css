@@ -1,0 +1,25 @@
+.all-wrapper{
+    display: flex;
+    position: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(180deg,  #9370DB,gray);
+}
+.device-wrapper{
+    position: relative;
+    top: 170px;
+    margin-bottom: 250px;
+  }
+
+
+.device{
+    display: inline-block;
+    margin-left: 65px;
+    margin-bottom: 100px;    
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}

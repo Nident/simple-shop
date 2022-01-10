@@ -1,0 +1,48 @@
+.navbar-wrapper {
+    display: flex;
+    position: fixed ;
+    width: 100%;
+    height: 70px;
+    background: #FA8072 ;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 1px 1px 3px #FF6347;
+    text-shadow: 1.5px 1.5px 1px #FFB6C1;
+    z-index: 100;
+}
+.category{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px gray;
+    background: #FFA07A;
+    height: 0;
+    overflow: hidden ;
+}
+.category-title:hover + .category {
+    height: fit-content;
+}
+
+.category:hover {
+    height: fit-content;
+    
+}
+.elems {
+    border-bottom: 1px solid white;
+    font-size: 20px;
+}
+
+.elemts-category{
+    padding: 10px;
+    color: white
+}
+
+.elems:hover{
+    background: blanchedalmond;
+}
+
+
+

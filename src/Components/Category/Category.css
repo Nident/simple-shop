@@ -1,0 +1,108 @@
+.cat-wrapper{
+        display: flex;
+        position: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 23px;
+        font-weight: 900;
+        width: 100%;
+        background: linear-gradient(180deg, #F4A460, white);
+        height: 100vh;
+        color: #8B4513; 
+}
+.All{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid black;
+    cursor: pointer;
+    width: 99%;
+}
+
+.all-txt{
+    color:#8B4513;
+    text-decoration: none
+}
+.All:hover  .all-txt{
+    color: gray;
+    text-shadow: 2px 2px 5px #FFFACD;
+}
+.Apple{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+    width: 99%;
+}
+
+.Apple:hover{
+    color: gray;
+    text-shadow: 2px 2px 5px #FFFACD;
+}
+
+.Apple-cat{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    justify-content: flex-end;
+}
+.Apple-elems{
+    width: 99%;
+    padding: 5px 0 5px 35px;
+    font-size: 17px;
+    font-weight: 600;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+.Apple-elems:hover{
+    color: gray;
+    cursor: pointer
+
+}
+
+.Sumsung{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+    width: 99%;
+}
+.Sumsung-cat{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    justify-content: flex-end;
+}
+.Sumsung-elems{
+    width: 99%;
+    padding: 5px 0 5px 35px;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+
+.Sumsung:hover{
+    color: gray;
+    text-shadow: 2px 2px 5px #FFFACD;
+}
+
+.Sumsung-elems:hover{
+    color: gray;
+    cursor: pointer
+}
