@@ -19,15 +19,18 @@ function App() {
           
           
           <Switch>
+    
             <Route exact path='/' component={HomePage}/>
+    
             <Route exact path='/category' component={Category}/>
+            
             <Route exact path='/all' component={All}/>
+            
             <Route exact path='/cart' component={Cart}/>
-            {/* <Route exact path='/cart' component={Cart}/> */}
 
           </Switch>
 
-      </Router>
+        </Router>
       </div>
       
       <div className='footer'>  
